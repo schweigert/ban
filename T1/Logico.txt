@@ -1,0 +1,9 @@
+Plataforma(#Id, Nome)
+Jogo(#ID, Titulo, dt_lançamento, idade, &id_cat, &id_plat)
+Categoria(#ID, Nome)
+Layout(#Letra, #Num, [&id_jogo])
+Cliente(#CPF, endereço, nome, tel)
+Funcionario(#CPF, endereço, nome, tel)
+
+Aluga(#ID, &id_func, &id_client, &id_jogo, dt_retirada, dias, preço)
+Compra(#ID, &id_func, &id_client, &id_jogo, dt_venda, preço)
